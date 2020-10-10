@@ -156,9 +156,20 @@
 // const surfaceCercle = function(rayon){
 //     return  3.14 * rayon ** 2;
 // }
+//**************** function flech *******
+// const surfaceCercle = rayon =>  3.14 * rayon ** 2;
 
-const surfaceCercle = rayon =>  3.14 * rayon ** 2;
 
+// let surface = surfaceCercle(20);
+// console.log(surface);
 
-let surface = surfaceCercle(20);
-console.log(surface);
+// Function with HTML
+let names = ['Basma','Mouad','Mohamed','Ibrahim','Khalid']
+let html = ``;
+const persons = (name, index) => {
+   html += `<li>${name}</li>` 
+}
+names.forEach(persons);
+
+let myElement = document.querySelector('.persons');
+myElement.innerHTML = html;
