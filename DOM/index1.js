@@ -47,12 +47,37 @@
 
 /*** change attr */
 
-const anchor = document.querySelector('a');
-console.log(anchor.getAttribute('href'))
-anchor.setAttribute('href', 'https://facebook.com')
-anchor.innerText = 'facebook'
+// const anchor = document.querySelector('a');
+// console.log(anchor.getAttribute('href'))
+// anchor.setAttribute('href', 'https://facebook.com')
+// anchor.innerText = 'facebook'
 
 
-const para = document.querySelector('p');
-para.setAttribute('class', 'error')
-para.setAttribute('style','color: red')
+// const para = document.querySelector('p');
+// para.setAttribute('class', 'error')
+// para.setAttribute('style','color: red')
+
+// const header = document.querySelector('h1')
+// header.setAttribute('style', 'margin: 50px')
+// header.style.margin = '100px'
+// header.style.color = 'red';
+// header.style.color =''
+
+// const para = document.querySelector('p');
+// para.classList.add('success')
+// para.classList.remove('success')
+// para.classList.add('error')
+
+// console.log(para.classList)
+
+// const paras = document.querySelectorAll('p');
+// paras.forEach(element => {
+//     if(element.innerText.includes('success')){
+//          element.classList.add('success');
+//     }else if(element.innerText.includes('error')){
+//         element.classList.add('error');
+
+//     }
+
+// });
+
