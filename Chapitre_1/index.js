@@ -164,12 +164,12 @@
 // console.log(surface);
 
 // Function with HTML
-let names = ['Basma','Mouad','Mohamed','Ibrahim','Khalid']
-let html = ``;
-const persons = (name, index) => {
-   html += `<li>${name}</li>` 
-}
-names.forEach(persons);
+// let names = ['Basma','Mouad','Mohamed','Ibrahim','Khalid']
+// let html = ``;
+// const persons = (name, index) => {
+//    html += `<li>${name}</li>` 
+// }
+// names.forEach(persons);
 
-let myElement = document.querySelector('.persons');
-myElement.innerHTML = html;
+// let myElement = document.querySelector('.persons');
+// myElement.innerHTML = html;
