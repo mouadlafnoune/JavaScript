@@ -66,15 +66,15 @@
 //console.log(result1)
 
 
-let users = [
-        {name: "Basma", active: true, note: 20},
-        {name: "Walid", active: false, note: 19},
-        {name: "Mohamed", active: true, note: 9},
-        {name: "Ayoub", active: false, note: 14},
-        {name: "Mouad", active: true, note: 15},
-    ];
+// let users = [
+//         {name: "Basma", active: true, note: 20},
+//         {name: "Walid", active: false, note: 19},
+//         {name: "Mohamed", active: true, note: 9},
+//         {name: "Ayoub", active: false, note: 14},
+//         {name: "Mouad", active: true, note: 15},
+//     ];
 
-   let result = users.sort((a, b) => b.note - a.note)
-                     .filter(user => user.active)
-                     .map(user => user.name)
-   console.log(result);
+//    let result = users.sort((a, b) => b.note - a.note)
+//                      .filter(user => user.active)
+//                      .map(user => user.name)
+//    console.log(result);
